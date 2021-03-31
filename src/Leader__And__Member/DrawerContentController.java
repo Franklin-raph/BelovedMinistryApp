@@ -36,7 +36,7 @@ public class DrawerContentController implements Initializable {
     @FXML
     public void about() throws Exception{
         Stage primaryStage = (Stage) DrawerPane.getScene().getWindow();
-        Parent root = FXMLLoader.load(getClass().getResource("/Leader__And__Member/LeaderDashAnchor.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/Leader__And__Member/About.fxml"));
 
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
